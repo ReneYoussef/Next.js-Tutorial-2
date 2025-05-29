@@ -42,7 +42,6 @@ return Response.json(comments[index])
 
 
 // DELETE Request handler to delete a comment by ID
-
 export async function DELETE(
      request: Request,
      { params }: { params:  Promise<{id: string}> }
