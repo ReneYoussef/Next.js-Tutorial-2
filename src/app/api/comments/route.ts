@@ -1,10 +1,15 @@
 
 import { comments } from "./data"
 
+
+// GET Request handler to fetch all comments
 export async function GET() {
     return Response.json(comments)
 }
 
+
+
+//POST Request handler to add a new comment
 export async function POST(request: Request) {
 
    const comment = await request.json();
@@ -20,3 +25,10 @@ export async function POST(request: Request) {
     },status: 201}
 );
 }
+
+
+// DELETE Request handler to delete a comment by ID
+
+
+
+//UPDATE Request handler to update a comment by ID
