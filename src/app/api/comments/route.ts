@@ -27,8 +27,4 @@ export async function POST(request: Request) {
 }
 
 
-// DELETE Request handler to delete a comment by ID
 
-
-
-//UPDATE Request handler to update a comment by ID
